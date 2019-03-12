@@ -1,0 +1,11 @@
+[18-May-2017 11:53:40 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[18-May-2017 11:53:41 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[18-May-2017 11:53:41 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[18-May-2017 11:53:41 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_filter() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/capabilities.php on line 3
+[31-May-2017 02:47:47 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_filter() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/capabilities.php on line 3
+[31-May-2017 02:47:47 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[31-May-2017 02:47:48 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[31-May-2017 02:47:48 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[12-Dec-2017 10:41:50 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[12-Dec-2017 10:41:50 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[12-Dec-2017 10:41:51 America/Sao_Paulo] PHP Fatal error:  Call to undefined function add_action() in /home/daesbo/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
