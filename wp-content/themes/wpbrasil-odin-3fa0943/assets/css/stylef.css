@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.entry-title {
+    display: none;
+}
+
+#header #main-navigation {
+    margin: 0;
+    background: #1f2123;
+}
+
+#main-navigation .custom-header img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar-default {
+    border: 0;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+    color: #777;
+    background-color: transparent;
+}
+
+#menu-menu-site a {
+    color: #777;
+    background-color: transparent;
+    border: 1px solid #777;
+    padding: 5px 15px;
+    border-radius: 20px;
+    transition: 500ms;
+}
+
+#menu-menu-site li a:hover {
+    color: #1F2123;
+    background-color: #777;
+    border: 1px solid #777;
+}
+
+
+#menu-menu-site li {
+    margin-left: 15px;
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-flex,
+    .custom-header img {
+        transition: 500ms;
+    }
+
+    #header .navbar-default .navbar-flex{
+        display: flex;
+        align-items: center;
+        height: 80px;
+        justify-content: space-between;
+    }
+
+    .navbar-default.scrolled .navbar-flex {
+        height: 50px !important;
+    }
+
+    .navbar-default.scrolled .navbar-flex .custom-header img {
+        height: 30px !important;
+    }
+}
+
+#footer {
+    background: #1f2123;
+    color: #777;
+}
+
+#footer a {
+    color: #777;
+    text-decoration: none;
+}
+
+#assinatura {
+    cursor: pointer;
+}

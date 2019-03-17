@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+#login h1 a, .login h1 a {
+    background-image: url(../images/logo.png) !important;
+    height:80px !important;
+    width:360px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding-bottom: 0 !important;
+    margin-top: calc(50% - 80px) !important;
+}
+
+#login {
+    width: 30%;
+    margin: auto;
+    float: right;
+    height: 100%;
+    padding: 0 !important;
+    background: #ffffff;
+}
+
+#login > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    box-shadow: none;
+    border-radius: unset;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    width: 345px;
+    margin: 0 auto;
+}
+
+#login > h1 {
+}
+
+#login > form > .submit{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    width: 50%;
+}
+#login > form > .submit > .button{
+    float: inherit;
+    margin-right: 0 !important;
+}
+
+#login form p{
+    width: 100%;
+}
+
+#login > form > .forgetmenot{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 50%;
+    text-align: left;
+}
+
+#login .assinatura{
+    position: absolute;
+    bottom: 2px;
+    right: 10px;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Rubik;
+    opacity: 0.2;
+    transition: all .2s;
+    cursor: default;
+    font-size: 11px;
+}
+#login .assinatura:hover{
+    opacity: 0.8;
+}
+
+.background{
+    background-image: url("../images/bg_login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.login #login_error, .login .message, .login .success{
+    margin-bottom: 0;
+}
+
+.login > form > p#nav{
+    padding-left: 259px;
+    margin-top: 5px;
+}
+
+#backtoblog{
+    display: none !important;
+}
+
+p#nav{
+    text-align: center;
+    margin-top: 35px !important;
+}
+
+@media (max-width: 768px) {
+    body{
+        background: #fff;
+    }
+   .background{
+       display: none;
+   }
+    #login{
+        width: 100%;
+        float: inherit;
+    }
+    #login > form{
+        width: 100%;
+    }
+    #login h1 a, .login h1 a{
+        width: 100%;
+        margin-top: 0;
+    }
+}

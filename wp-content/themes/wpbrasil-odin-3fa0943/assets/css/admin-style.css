@@ -1,0 +1,16 @@
+.full__input {
+    width: 100%;
+}
+
+.width__input--30 {
+    width: 30%;
+}
+
+.width__input--20 {
+    width: 20%;
+}
+
+.flex__input {
+    display: flex;
+    justify-content: space-evenly;
+}
